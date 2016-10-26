@@ -1,0 +1,20 @@
+{
+  "name": "ng-decorators-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/ng-decorators-utils.git"
+  },
+  "keywords": [],
+  "author": "Iain Reid <iainreid382@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iainreid820/ng-decorators-utils/issues"
+  },
+  "homepage": "https://github.com/iainreid820/ng-decorators-utils#readme"
+}
