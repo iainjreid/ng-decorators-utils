@@ -2,7 +2,7 @@
   "name": "ng-decorators-utils",
   "version": "0.1.0",
   "description": "AngularJS utilities using decorators",
-  "main": "index.js",
+  "main": "source/index.js",
   "scripts": {
     "lint": "eslint source --fix; exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
