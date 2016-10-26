@@ -1,20 +1,32 @@
 {
   "name": "ng-decorators-utils",
   "version": "0.0.0",
-  "description": "AngularJS utilities using decorators.",
+  "description": "AngularJS utilities using decorators",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint source --fix; exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iainreid820/ng-decorators-utils.git"
   },
-  "keywords": [],
-  "author": "Iain Reid <iainreid382@gmail.com>",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "utils",
+    "utilities",
+    "decorators"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iainreid820/ng-decorators-utils/issues"
   },
-  "homepage": "https://github.com/iainreid820/ng-decorators-utils#readme"
+  "homepage": "https://github.com/iainreid820/ng-decorators-utils#readme",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
 }
