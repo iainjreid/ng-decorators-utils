@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p --color",
     "start": "webpack-dev-server"
   },
   "dependencies": {
     "angular": "^1.5.8",
-    "ng-decorators-utils": "^0.1.1"
+    "ng-decorators-utils": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
