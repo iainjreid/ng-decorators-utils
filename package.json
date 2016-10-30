@@ -2,7 +2,7 @@
   "name": "ng-decorators-utils",
   "version": "0.1.1",
   "description": "AngularJS utilities using decorators",
-  "main": "source/index.js",
+  "main": "dist/ng-decorators-utils.js",
   "scripts": {
     "build": "webpack -p --color",
     "lint": "eslint source --fix; exit 0",
