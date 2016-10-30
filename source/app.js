@@ -10,5 +10,5 @@ class AppCtrl {
 }
 
 angular
-  .module('app')
+  .module('app', [])
   .controller('AppCtrl', AppCtrl)
