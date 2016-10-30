@@ -1,6 +1,7 @@
 module.exports = {
   entry: './source/index.js',
   output: {
+    libraryTarget: 'commonjs',
     path: 'dist',
     filename: 'ng-decorators-utils.js'
   },
