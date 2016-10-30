@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/iainreid820/ng-decorators-utils#readme",
   "devDependencies": {
-    "babel-core": "^6.18.0",
-    "babel-loader": "^6.2.7",
-    "babel-preset-es2015": "^6.18.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
     "eslint": "^3.4.0",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-promise": "^2.0.1",
