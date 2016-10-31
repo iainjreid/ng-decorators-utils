@@ -1,6 +1,6 @@
 {
   "name": "ng-decorators-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS utilities using decorators",
   "main": "dist/ng-decorators-utils.js",
   "scripts": {
