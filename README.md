@@ -19,6 +19,18 @@ npm install ng-decorators-utils --save
 
 To use this module as designed you must have either Babel or another transpiler available to compile your source code into a browser friendly distribution prior to runtime.
 
-Babel is currently the most popular choice when it comes to transpilers, however, due to restrictions in Babel 6, to use the module fully you must also include the decorators transform that can be [found here](https://www.npmjs.com/package/babel-plugin-transform-decorators).
+Babel is currently the most popular choice when it comes to transpilers, however, due to restrictions in Babel 6, to use the module fully you must also include the decorators transform that can be [found here](https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy).
 
-(More to come)
+Include Babel, and the relevant transforms in your project by running the following:
+
+```javascript
+npm install babel-cli babel-preset-es2015 babel-plugin-transform-decorators-legacy --save-dev
+```
+
+And ensure that you include the decorators transform in your Babel configuration:
+
+```javascript
+{
+    "plugins": ["transform-decorators-legacy"]
+}
+```
